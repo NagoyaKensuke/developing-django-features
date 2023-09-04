@@ -1,0 +1,7 @@
+{% for product in object_list %}
+<div class="product">
+    <h2>{{ product.name }}</h2>
+    <p>Current Price: ${{ product.current_price }}</p>
+    <p>Stock: {{ product.stock }}</p>
+</div>
+{% endfor %}
